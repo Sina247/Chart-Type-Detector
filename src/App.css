@@ -1,0 +1,56 @@
+body {
+  overflow: hidden;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.chart-wrapper {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.chart-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .chart-wrapper {
+    padding: 10px;
+  }
+
+  .chart-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-title {
+    font-size: 1rem;
+  }
+}
